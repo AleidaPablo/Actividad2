@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro - Utileria</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <div class="contenedor">
+        <h2>Registro de usuario</h2>
+        <form id="formularioRegistro" novalidate>
+            <div class="grupo-formulario">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" placeholder="Ej. Beatriz Adriana">
+            </div>
+            <div class="grupo-formulario">
+                <label for="nombre">Apellidos:</label>
+                <input type="text" id="apellidos" placeholder="Ej. Pablo Delgado">
+            </div>
+            <div class="grupo-formulario">
+                <label for="telefono">Teléfono (10 dígitos):</label>
+                <input type="text" id="telefono" placeholder="Ej. 9512983040">
+            </div>
+            
+            <div class="grupo-formulario">
+                <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+                <input type="date" id="fechaNacimiento">
+            </div>
+
+            <button type="submit">Procesar Registro</button>
+        </form>
+
+        <a id="botonLogin" href="login.html" class="boton boton-deshabilitado">Ir a Login</a>
+    </div>
+
+    <div id="modalResultado" class="modal">
+        <div class="modal-contenido">
+            <h3>Resultado de Validación</h3>
+            <p id="modalMensaje"></p>
+            <button onclick="cerrarModal()">Cerrar</button>
+        </div>
+    </div>
+
+    <script src="js/utileria.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

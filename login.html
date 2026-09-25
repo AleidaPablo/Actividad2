@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Utileria</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h2>Iniciar Sesión</h2>
+        <form id="formularioLogin" novalidate> 
+            <div class="grupo-formulario">
+                <label for="correoLogin">Correo Electrónico:</label>
+                <input type="text" id="correoLogin" placeholder="Ej. nombre@dominio.com">
+            </div>
+            
+            <div class="grupo-formulario">
+                <label for="passwordLogin">Contraseña:</label>
+                <input type="password" id="passwordLogin">
+            </div>
+
+            <button type="submit">Ingresar</button>
+        </form>
+
+        <a href="index.html" class="boton boton-secundario">Volver al Registro</a>
+    </div>
+    <script src="js/utileria.js"></script>
+    <script src="js/login.js"></script>
+    
+</body>
+</html>
