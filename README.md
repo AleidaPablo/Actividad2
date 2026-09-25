@@ -9,11 +9,37 @@
 * **Autor:** Evelin Aleida Pablo Delgado
 * **Problema que resuelve:** Permite validar datos de formularios en el cliente como correos, contraseñas, teléfonos y edades de manera centralizada en un solo archivo reusable, evitando código duplicado y **eliminando la necesidad de instalar paquetes o frameworks pesados**.
 
+## Evidencias en navegador 
+**Validacion de formulario Registro**
+
+![Formulario](./img/img1.png)
+
+En caso de haber errores al ingresar los datos nos aparecera un alert en la pantalla
+
+![Errores](./img/img2.png)
+
+**Modal Validacion de Registro**
+
+![Mayor de Edad](./img/img3.png)
+
+![Menor de edad](./img/img4.png)
+
+**Validación de Login**
+
+![Login](./img/img5.png)
+
+En caso de existir errores y no haber rellenado los campos de forma correcta aparecera un alert indicando cual esta siendo el error
+
+![Error en Login](./img/img6.png)
+
+**Inicio de sesión Exitoso**
+
+![Inicio de sesión](./img/img7.png)
+
 ---
 ## Evidencias de consola
 En la siguiente carpeta se encuentran las capturas de pruebas realizadas en consola de las funciones que tiene la utileria
 ### 1.validarCorreo
-### 1. validarCorreo
 ![Prueba validarCorreo](./img/funcionPrueba1.png)
 
 ### 2. validarPassword
