@@ -4,8 +4,8 @@
 
 ## Portada
 
-* **Proyecto:** Sistema de Validación de Formularios Web
-* **Librería:** `utileria.js` (Vanilla JavaScript)
+* **Proyecto:**  Librería utileria.js
+* **Librería:** `utileria.js` 
 * **Autor:** Evelin Aleida Pablo Delgado
 * **Problema que resuelve:** Permite validar datos de formularios en el cliente como correos, contraseñas, teléfonos y edades de manera centralizada en un solo archivo reusable, evitando código duplicado y **eliminando la necesidad de instalar paquetes o frameworks pesados**.
 
@@ -37,9 +37,14 @@ En la siguiente carpeta se encuentran las capturas de pruebas realizadas en cons
 ### 8. ocultarTexto
 ![Prueba ocultarTexto](./img/funcionPrueba8.png)
 
+
+
+## Video
+El siguiente video es una explicacion breve de lo que es este proyecto y de como funciona desde navegador
+ [Ver Video Demo](https://www.loom.com/share/d8a47a0f39c944759baf3ec1b33decbf)
+
 ## Instalación
 
 Para utilizar la librería en cualquier proyecto web, descarga el archivo `utileria.js` e inclúyelo en tu archivo HTML antes del cierre de la etiqueta `</body>`:
-
 ```html
 <script src="js/utileria.js"></script>
